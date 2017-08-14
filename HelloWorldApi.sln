@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldApi", "HelloWorldApi\HelloWorldApi.csproj", "{DAF1CA94-2DE5-4610-9154-4FE76362242D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldApi.Tests", "HelloWorldApi.Tests\HelloWorldApi.Tests.csproj", "{2EAE0E99-45D0-45A4-929A-369B28DFB9CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldClient", "HelloWorldClient\HelloWorldClient.csproj", "{951AEC2A-6257-4827-BD46-315FB25F30C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAF1CA94-2DE5-4610-9154-4FE76362242D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF1CA94-2DE5-4610-9154-4FE76362242D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF1CA94-2DE5-4610-9154-4FE76362242D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF1CA94-2DE5-4610-9154-4FE76362242D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAE0E99-45D0-45A4-929A-369B28DFB9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAE0E99-45D0-45A4-929A-369B28DFB9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAE0E99-45D0-45A4-929A-369B28DFB9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAE0E99-45D0-45A4-929A-369B28DFB9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951AEC2A-6257-4827-BD46-315FB25F30C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951AEC2A-6257-4827-BD46-315FB25F30C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951AEC2A-6257-4827-BD46-315FB25F30C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951AEC2A-6257-4827-BD46-315FB25F30C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
